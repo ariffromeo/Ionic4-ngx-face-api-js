@@ -1,0 +1,8 @@
+{
+  "name": "facescan",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
