@@ -17,7 +17,12 @@
           <div #videoContainer></div>
         </ion-col> -->
         <ion-col class="ion-text-center">
-          <img allFaces [src]="imageSrc" width="300px" />
+          <img
+            allFaces
+            [with]="['expressions', 'landmarks']"
+            [src]="imageSrc"
+            crossorigin="anonymous"
+            width="300px" />
         </ion-col>
       </ion-row>
     </ion-grid>

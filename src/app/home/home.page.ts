@@ -11,6 +11,8 @@ import { Router } from '@angular/router';
 })
 export class HomePage {
 
+  public imageSrc = 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg';
+
   constructor() {
 
 
