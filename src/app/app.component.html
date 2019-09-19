@@ -1,4 +1,30 @@
 <ion-app>
   <!-- <ion-router-outlet></ion-router-outlet> -->
-  <img allFaces [with]="['expressions', 'landmarks']" src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"  crossorigin="anonymous" width="300px" />
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Anjink
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <div class="ion-padding">
+  
+      <p>FaceScan Api Test V1.5</p>
+  
+      <ion-grid>
+        <ion-row>
+          <ion-col class="ion-text-center">
+            <img
+              allFaces
+              [with]="['expressions', 'landmarks']"
+              [src]="imageSrc"
+              crossorigin="anonymous"
+              width="300px" />
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </ion-content>
 </ion-app>

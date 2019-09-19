@@ -12,6 +12,8 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 })
 export class AppComponent {
 
+  public imageSrc = 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg';
+
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,
